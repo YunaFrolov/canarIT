@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuna.canarit.AdminAddUserView">
+
+    <ImageButton
+        android:id="@+id/ibSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout1"
+        app:layout_constraintRight_toRightOf="@+id/tableLayout1"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/tvAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:text="Press When Finished"
+        app:layout_constraintBottom_toBottomOf="@+id/tableLayout1"
+        app:layout_constraintRight_toLeftOf="@+id/ibSend"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="37dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <!-- First Row -->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="left"
+                android:text="User"
+                android:textColor="#f2f2f2"
+                android:textSize="14sp" />
+
+
+            <EditText
+                android:id="@+id/trUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:enabled="true"
+                android:gravity="left"
+                android:hint="@string/error_field_required"
+                android:inputType="text"
+                android:textColor="#FF333333"
+                android:textSize="14sp" />
+
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="left"
+                android:text="Password"
+                android:textColor="#f2f2f2"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/trPassword"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:hint="@string/error_field_required"
+                android:inputType="text"
+                android:textColor="#FF333333"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="left"
+                android:text="User Type"
+                android:textColor="#f2f2f2"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/trUserType"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:hint="@string/error_field_required"
+                android:inputType="text"
+                android:textColor="#FF333333"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+        <!-- Second Row -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="left"
+                android:text="First Name"
+                android:textColor="#f2f2f2"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/trFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:hint="@string/error_field_required"
+                android:inputType="text"
+                android:textColor="#FF333333"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="left"
+                android:text="Last Name"
+                android:textColor="#f2f2f2"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/trLastName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:hint="@string/error_field_required"
+                android:inputType="text"
+                android:textColor="#FF333333"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="left"
+                android:text="Phone"
+                android:textColor="#f2f2f2"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/trPhone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:hint="@string/error_field_required"
+                android:inputType="text"
+                android:textColor="#FF333333"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="left"
+                android:text="Email"
+                android:textColor="#f2f2f2"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/trEmail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:hint="@string/error_field_required"
+                android:inputType="text"
+                android:textColor="#FF333333"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuna.canarit.RespLocationView"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/tvAdminHardwareText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_marginStart="25dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginStart="1dp"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="48dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- First Row -->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="center"
+                android:text="Family"
+                android:textColor="#f2f2f2"
+                android:textSize="14dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="center"
+                android:text="Address"
+                android:textColor="#f2f2f2"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="center"
+                android:text="House"
+                android:textColor="#f2f2f2"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="center"
+                android:text="Unit"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF333333"
+                android:gravity="center"
+                android:text="Sensor Type"
+                android:textColor="#ffffffff"
+                android:textSize="14dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow0"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+        <!-- Second Row -->
+
+        <TableRow
+            android:id="@+id/trTableRow9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/trFamily9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trStreet9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="left"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trHouse9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trUnit9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/trSensorType9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFBB431"
+                android:gravity="center"
+                android:textColor="#FF333333"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
